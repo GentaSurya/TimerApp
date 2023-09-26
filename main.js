@@ -82,6 +82,7 @@ function timeUp() {
     removeMin.innerHTML = "-";
     clearInterval(intervalId);
     startButton.innerHTML = "Start";
+     paraf.innerHTML = "(Set Minute)";
     minutes = 0;
     seconds = 60;
   }
